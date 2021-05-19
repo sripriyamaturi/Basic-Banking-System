@@ -1,0 +1,118 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+        background-color:#c6ffb3;
+        
+    }
+    .title{
+        color:#1a1a1a;
+        /* padding-left: 500px; */
+        /* padding-top: 144px; */
+        /* padding-left: 155px; */
+        text-align: center;
+        /*display: inline-block;*/
+        font-family: 'Girassol', cursive;
+        
+        height: 200px;
+       width: 400px;
+
+       position: fixed;
+       top: 50%;
+       left: 50%;
+      
+       margin-left: -200px;
+}
+    
+    .image{
+         padding-left: 99px; 
+        padding-top: 98px; 
+        display: inline-block;
+        /* opacity: 0.8; */
+        width: 50%;
+        align-items: center;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .navbar{
+        background-color:#1a1a1a;
+        /* border-radius: 10px; */
+        /*opacity: 0.7;*/
+
+
+        padding: 0px;
+        height: 15px;
+        height: 50%;
+
+
+    }
+     .navbar ul{
+         overflow: auto;
+         margin: 0px;
+    }
+     .navbar li{
+         /* float: left; */
+         list-style: none;
+         padding: 19px;
+         /* font-family: serif ; */
+         font-family: 'Roboto', sans-serif;
+    }
+     .navbar li a{
+         text-decoration: none;
+         color: white;
+         padding: 9px 2px;
+         font-size: 15px;
+         /* font: icon; */
+         font-weight: bold;
+
+    }
+     .navbar li a:hover{
+         text-decoration: none;
+         color: rgb(73, 83, 221);
+         padding: 9px 2px;
+    }
+    .company{
+        float: left;
+    }
+    .other{
+        float: right;
+    }
+
+    .center {
+  display: block;
+  margin-left: 93%;
+  margin-right: 50%;
+
+}
+  .about{
+    text-align: center;
+  }
+
+  .button{
+    background-color: black;
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 2px solid #e0e0d1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+    text-align: center;
+     display: block;
+     color: #e0e0d1;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+
+  }
+  footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:30px;   /* Height of the footer */
+    background:#1a1a1a;
+    color:#e0e0d1;
+      text-align: right;
+}
